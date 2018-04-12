@@ -13,12 +13,17 @@ package restaurante.menu.logica;
 //       to preserve your hand-coding across code generations.
 
 public class Componente {
+    protected String nombre;
 
 	public void seleccionarComponente() {
 		// PRESERVE:BEGIN
 		// Insert your preservable code here...
 		// PRESERVE:END
 	}
+        
+        public String getNombre(){
+            return this.nombre;
+        }
 
 }
 

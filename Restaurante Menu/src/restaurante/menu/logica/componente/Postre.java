@@ -16,5 +16,10 @@ import restaurante.menu.logica.Componente;
 
 public class Postre extends Componente {
 
+    public Postre() {
+        this.nombre = "postre";
+    }
+    
+
 }
 

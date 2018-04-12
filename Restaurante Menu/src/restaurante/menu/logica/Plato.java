@@ -5,6 +5,9 @@
  */
 package restaurante.menu.logica;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 /**
  *
  * @author Estudiantes
@@ -13,13 +16,20 @@ package restaurante.menu.logica;
 //       to preserve your hand-coding across code generations.
 
 public class Plato {
-
-	public void agregarComponente() {
-		// PRESERVE:BEGIN
-		// Insert your preservable code here...
-		// PRESERVE:END
+    ArrayList<Componente> componentes = new ArrayList<Componente>();
+	public void agregarComponente(Componente componente) {
+		componentes.add(componente);
 	}
-
-	public Componente Componente;
+        
+        
+        public String listarComponentes(){
+            String cadena = "";
+            for (Iterator<Componente> iterator = componentes.iterator(); iterator.hasNext();) {
+                Componente next = iterator.next();
+                cadena += next.getNombre() + "\n";
+                
+            }
+            return cadena;
+        }
 
 }

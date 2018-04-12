@@ -13,4 +13,9 @@ import restaurante.menu.logica.componente.Bebida;
  */
 public class Jugo extends Bebida {
 
+    public Jugo() {
+        this.nombre = "Jugo";
+    }
+    
+
 }
