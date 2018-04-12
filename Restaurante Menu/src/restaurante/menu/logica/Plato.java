@@ -20,6 +20,7 @@ public class Plato {
 	public void agregarComponente(Componente componente) {
 		componentes.add(componente);
 	}
+        protected String nombrePlato;
         
         
         public String listarComponentes(){
@@ -31,5 +32,12 @@ public class Plato {
             }
             return cadena;
         }
+        public String getNombre(){
+            return this.nombrePlato;
+        }
 
+    public void setNombrePlato(String nombrePlato) {
+        this.nombrePlato = nombrePlato;
+    }
+        
 }
