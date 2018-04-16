@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Menu.java
+ * Copyright (c) 2018 Valentina Tobo 20172020063, Camilo Torres 20172020067, Johan Mendez 20172020070
  */
 package restaurante.menu.logica.componente.postre;
 
@@ -9,7 +8,9 @@ import restaurante.menu.logica.componente.Postre;
 
 /**
  *
- * @author Estudiantes
+ * @author Valentina Uscategui Tobo - 20172020063
+ * @author Camilo Torres Rodriguez - 20172020067
+ * @author Johan Mendez Vega - 20172020070
  */
 public class Tortas extends Postre {
 
@@ -18,4 +19,3 @@ public class Tortas extends Postre {
     }
 
 }
-

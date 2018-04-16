@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Menu.java
+ * Copyright (c) 2018 Valentina Tobo 20172020063, Camilo Torres 20172020067, Johan Mendez 20172020070
  */
 package Interface;
 
@@ -11,19 +10,23 @@ import restaurante.menu.logica.*;
 
 /**
  *
- * @author Estudiantes
+ * @author Valentina Uscategui Tobo - 20172020063
+ * @author Camilo Torres Rodriguez - 20172020067
+ * @author Johan Mendez Vega - 20172020070
  */
 public class GUI extends javax.swing.JFrame {
+
     protected static ArrayList<Plato> menu = new ArrayList<Plato>();
     Plato plato;
     Componente componente;
+
     /**
      * Creates new form GUI
      */
     public GUI() {
         initComponents();
         plato = new Plato();
-        
+
     }
 
     /**
@@ -347,7 +350,7 @@ public class GUI extends javax.swing.JFrame {
         Menu.agregarPlato(menu, plato, NombrePlato.getText());
         plato = new Plato();
         NombrePlato.setText("Nombre del Plato");
-        ListaPlatos.setText("Lista de Platos: \n \n"+Menu.listarPlatos(menu));
+        ListaPlatos.setText("Lista de Platos: \n \n" + Menu.listarPlatos(menu));
     }//GEN-LAST:event_GuardarPlatoActionPerformed
 
     private void EnsaladaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnsaladaActionPerformed
