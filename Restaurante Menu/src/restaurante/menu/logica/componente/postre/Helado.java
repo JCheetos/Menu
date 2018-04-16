@@ -13,4 +13,8 @@ import restaurante.menu.logica.componente.Postre;
  */
 public class Helado extends Postre {
 
+    public Helado() {
+        this.nombre = "Helado";
+    }
+
 }

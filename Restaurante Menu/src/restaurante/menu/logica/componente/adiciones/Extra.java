@@ -13,5 +13,9 @@ import restaurante.menu.logica.componente.Adiciones;
  */
 public class Extra extends Adiciones {
 
+    public Extra() {
+        this.nombre = "Extra Queso o Salsas";
+    }
+
 }
 

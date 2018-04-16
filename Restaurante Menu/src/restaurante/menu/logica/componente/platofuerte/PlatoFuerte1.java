@@ -13,4 +13,8 @@ import restaurante.menu.logica.componente.PlatoFuerte;
  */
 public class PlatoFuerte1 extends PlatoFuerte {
 
+    public PlatoFuerte1() {
+        this.nombre = "Plato Fuerte #1";
+    }
+
 }

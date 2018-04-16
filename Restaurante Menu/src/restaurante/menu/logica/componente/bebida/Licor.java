@@ -13,5 +13,7 @@ import restaurante.menu.logica.componente.Bebida;
  */
 public class Licor extends Bebida {
 
+    public Licor() {
+        this.nombre = "Licor";
+    }
 }
-

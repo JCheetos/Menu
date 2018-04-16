@@ -13,4 +13,8 @@ import restaurante.menu.logica.componente.Postre;
  */
 public class Gelatinas extends Postre {
 
+    public Gelatinas() {
+        this.nombre = "Gelatina del Dia";
+    }
+
 }

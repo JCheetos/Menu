@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package restaurante.menu.logica.componente.platofuerte;
+package restaurante.menu.logica.componente.adiciones;
 
-import restaurante.menu.logica.componente.PlatoFuerte;
+import restaurante.menu.logica.componente.Adiciones;
 
 /**
  *
  * @author Estudiantes
  */
-public class PlatoFuerte2 extends PlatoFuerte {
+public class EnsaladaAd extends Adiciones {
 
-    public PlatoFuerte2() {
-        this.nombre = "Plato Fuerte #2";
+    public EnsaladaAd() {
+        this.nombre = "Ensalada Extra";
     }
 
 }

@@ -13,5 +13,9 @@ import restaurante.menu.logica.componente.Postre;
  */
 public class Tortas extends Postre {
 
+    public Tortas() {
+        this.nombre = "Torta del Dia";
+    }
+
 }
 

@@ -13,5 +13,9 @@ import restaurante.menu.logica.componente.Bebida;
  */
 public class Gaseosa extends Bebida {
 
+    public Gaseosa() {
+        this.nombre = "Gaseosa";
+    }
+
 }
 

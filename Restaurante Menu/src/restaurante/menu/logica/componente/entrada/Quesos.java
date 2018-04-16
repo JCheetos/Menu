@@ -13,4 +13,8 @@ import restaurante.menu.logica.componente.Entrada;
  */
 public class Quesos extends Entrada {
 
+    public Quesos() {
+        this.nombre = "Quesito";
+    }
+
 }
