@@ -42,14 +42,14 @@ public class GUI extends javax.swing.JFrame {
     private void initComponents() {
 
         Ensalada = new javax.swing.JButton();
-        PlatoFuerte1 = new javax.swing.JButton();
+        Carnes = new javax.swing.JButton();
         BebidaCaliente = new javax.swing.JButton();
         EnsaladaAd = new javax.swing.JButton();
         Galletas = new javax.swing.JButton();
         GuardarPlato = new javax.swing.JButton();
         Quesos = new javax.swing.JButton();
         Sopa = new javax.swing.JButton();
-        PlatoFuerte2 = new javax.swing.JButton();
+        Pastas = new javax.swing.JButton();
         Gaseosa = new javax.swing.JButton();
         Jugos = new javax.swing.JButton();
         Licor = new javax.swing.JButton();
@@ -82,10 +82,10 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        PlatoFuerte1.setText("Plato Fuerte 1");
-        PlatoFuerte1.addActionListener(new java.awt.event.ActionListener() {
+        Carnes.setText("Carnes");
+        Carnes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PlatoFuerte1ActionPerformed(evt);
+                CarnesActionPerformed(evt);
             }
         });
 
@@ -131,10 +131,10 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        PlatoFuerte2.setText("Plato Fuerte 2");
-        PlatoFuerte2.addActionListener(new java.awt.event.ActionListener() {
+        Pastas.setText("Pastas");
+        Pastas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PlatoFuerte2ActionPerformed(evt);
+                PastasActionPerformed(evt);
             }
         });
 
@@ -248,8 +248,8 @@ public class GUI extends javax.swing.JFrame {
                                     .addComponent(Sopa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(PlatoFuerte1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(PlatoFuerte2)))
+                                    .addComponent(Carnes, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
+                                    .addComponent(Pastas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(EntradaLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -310,14 +310,14 @@ public class GUI extends javax.swing.JFrame {
                 .addGap(8, 8, 8)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Ensalada)
-                    .addComponent(PlatoFuerte1)
+                    .addComponent(Carnes)
                     .addComponent(BebidaCaliente)
                     .addComponent(EnsaladaAd)
                     .addComponent(Galletas))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Quesos)
-                    .addComponent(PlatoFuerte2)
+                    .addComponent(Pastas)
                     .addComponent(Gaseosa)
                     .addComponent(Gelatina)
                     .addComponent(Extra))
@@ -368,13 +368,13 @@ public class GUI extends javax.swing.JFrame {
         Menu.agregarComponente(plato, componente, "Sopa");
     }//GEN-LAST:event_SopaActionPerformed
 
-    private void PlatoFuerte1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlatoFuerte1ActionPerformed
-        Menu.agregarComponente(plato, componente, "PlatoFuerte1");
-    }//GEN-LAST:event_PlatoFuerte1ActionPerformed
+    private void CarnesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CarnesActionPerformed
+        Menu.agregarComponente(plato, componente, "Carnes");
+    }//GEN-LAST:event_CarnesActionPerformed
 
-    private void PlatoFuerte2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlatoFuerte2ActionPerformed
-        Menu.agregarComponente(plato, componente, "PlatoFuerte2");
-    }//GEN-LAST:event_PlatoFuerte2ActionPerformed
+    private void PastasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastasActionPerformed
+        Menu.agregarComponente(plato, componente, "Pastas");
+    }//GEN-LAST:event_PastasActionPerformed
 
     private void BebidaCalienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BebidaCalienteActionPerformed
         Menu.agregarComponente(plato, componente, "BebidaCaliente");
@@ -460,6 +460,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JLabel AdicionesLabel;
     private javax.swing.JButton BebidaCaliente;
     private javax.swing.JLabel BebidasLabel;
+    private javax.swing.JButton Carnes;
     private javax.swing.JButton Ensalada;
     private javax.swing.JButton EnsaladaAd;
     private javax.swing.JLabel EntradaLabel;
@@ -473,8 +474,7 @@ public class GUI extends javax.swing.JFrame {
     private javax.swing.JButton Licor;
     private javax.swing.JTextArea ListaPlatos;
     private javax.swing.JTextField NombrePlato;
-    private javax.swing.JButton PlatoFuerte1;
-    private javax.swing.JButton PlatoFuerte2;
+    private javax.swing.JButton Pastas;
     private javax.swing.JLabel PlatoFuerteLabel;
     private javax.swing.JLabel PostreLabel;
     private javax.swing.JButton Quesos;

@@ -52,8 +52,8 @@
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="PlatoFuerte1" min="-2" pref="100" max="-2" attributes="0"/>
-                                  <Component id="PlatoFuerte2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Carnes" pref="100" max="32767" attributes="0"/>
+                                  <Component id="Pastas" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -135,7 +135,7 @@
               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="Ensalada" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="PlatoFuerte1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Carnes" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="BebidaCaliente" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="EnsaladaAd" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="Galletas" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -143,7 +143,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="Quesos" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="PlatoFuerte2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Pastas" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="Gaseosa" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="Gelatina" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="Extra" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -184,12 +184,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EnsaladaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="PlatoFuerte1">
+    <Component class="javax.swing.JButton" name="Carnes">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Plato Fuerte 1"/>
+        <Property name="text" type="java.lang.String" value="Carnes"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlatoFuerte1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CarnesActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="BebidaCaliente">
@@ -240,12 +240,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SopaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="PlatoFuerte2">
+    <Component class="javax.swing.JButton" name="Pastas">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Plato Fuerte 2"/>
+        <Property name="text" type="java.lang.String" value="Pastas"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlatoFuerte2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PastasActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Gaseosa">

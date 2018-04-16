@@ -13,15 +13,15 @@ import restaurante.menu.logica.componente.PlatoFuerte;
  * @author Camilo Torres Rodriguez - 20172020067
  * @author Johan Mendez Vega - 20172020070
  */
-public class PlatoFuerte2 extends PlatoFuerte {
+public class Pastas extends PlatoFuerte {
 
     /**
      * Este metodo constructor le asigna el nombre al componente al cual se
-     * define como PlatoFuerte2
+     * define como Pastas
      *
      */
-    public PlatoFuerte2() {
-        this.nombre = "Plato Fuerte #2";
+    public Pastas() {
+        this.nombre = "Pasta tipo Spagghetti";
     }
 
 }

@@ -75,11 +75,11 @@ public class Menu {
             case "Sopa":
                 componente = new Sopa();
                 break;
-            case "PlatoFuerte1":
-                componente = new PlatoFuerte1();
+            case "Carnes":
+                componente = new Carnes();
                 break;
-            case "PlatoFuerte2":
-                componente = new PlatoFuerte2();
+            case "Pastas":
+                componente = new Pastas();
                 break;
             case "Galletas":
                 componente = new Galletas();
