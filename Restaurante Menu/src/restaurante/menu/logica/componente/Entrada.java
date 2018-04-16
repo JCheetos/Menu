@@ -7,6 +7,7 @@ package restaurante.menu.logica.componente;
 import restaurante.menu.logica.Componente;
 
 /**
+ * Esta clase hereda las caracteristicas y metodos de la clase Componente
  *
  * @author Valentina Uscategui Tobo - 20172020063
  * @author Camilo Torres Rodriguez - 20172020067

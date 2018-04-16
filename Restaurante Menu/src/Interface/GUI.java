@@ -9,6 +9,9 @@ import restaurante.menu.Menu;
 import restaurante.menu.logica.*;
 
 /**
+ * La clase GUI permite inicializar los objetos menu (Una ArrayList que contiene
+ * los Platos del Menú del Restaurante), plato y componente, para usarlos a lo
+ * largo del programa
  *
  * @author Valentina Uscategui Tobo - 20172020063
  * @author Camilo Torres Rodriguez - 20172020067
@@ -21,7 +24,7 @@ public class GUI extends javax.swing.JFrame {
     Componente componente;
 
     /**
-     * Creates new form GUI
+     * Crea el nuevo GUI y le da un valor a plato
      */
     public GUI() {
         initComponents();
@@ -445,7 +448,7 @@ public class GUI extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
+        /* Crea y visualiza el formulario */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new GUI().setVisible(true);

@@ -15,6 +15,9 @@ import restaurante.menu.logica.componente.platofuerte.*;
 import restaurante.menu.logica.componente.postre.*;
 
 /**
+ * La clase Menu contiene las acciones que seran usadas en el GUI, conectandose
+ * con la clase Plato y cada uno de los componentes, la base logica del programa
+ * se encuentra aqui
  *
  * @author Valentina Uscategui Tobo - 20172020063
  * @author Camilo Torres Rodriguez - 20172020067
@@ -22,11 +25,27 @@ import restaurante.menu.logica.componente.postre.*;
  */
 public class Menu {
 
+    /**
+     * Le asigna el nombre al plato en base a lo escrito en el cuadro de texto
+     * del GUI y se agrega el plato al array del Menú
+     *
+     * @param menu
+     * @param plato
+     * @param nombrePlato
+     */
     public static void agregarPlato(ArrayList<Plato> menu, Plato plato, String nombrePlato) {
         plato.setNombrePlato(nombrePlato);
         menu.add(plato);
     }
 
+    /**
+     * El componente se reasigna como uno especifico segun la opcion elegida en
+     * el GUI y se agrega al plato actual
+     *
+     * @param plato
+     * @param componente
+     * @param nombreComp
+     */
     public static void agregarComponente(Plato plato, Componente componente, String nombreComp) {
         switch (nombreComp) {
             case "Ensalada":
@@ -78,6 +97,14 @@ public class Menu {
         plato.agregarComponente(componente);
     }
 
+    /**
+     * Toma el array del Menú y crea un String organizado con el nombre de cada
+     * plato y sus respectivos componentes, retornando el valor string para ser
+     * mostrado en el GUI
+     *
+     * @param menu
+     * @return cadena
+     */
     public static String listarPlatos(ArrayList<Plato> menu) {
         String cadena = "";
         for (Iterator<Plato> iterator = menu.iterator(); iterator.hasNext();) {
@@ -87,6 +114,3 @@ public class Menu {
         return cadena;
     }
 }
-// NOTE: please use a PRESERVE:BEGIN/PRESERVE:END comment block
-//       to preserve your hand-coding across code generations.
-

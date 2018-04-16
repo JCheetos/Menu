@@ -7,6 +7,7 @@ package restaurante.menu.logica.componente.bebida;
 import restaurante.menu.logica.componente.Bebida;
 
 /**
+ * Esta clase hereda las caracteristicas y metodos de la clase Bebida
  *
  * @author Valentina Uscategui Tobo - 20172020063
  * @author Camilo Torres Rodriguez - 20172020067
@@ -14,6 +15,11 @@ import restaurante.menu.logica.componente.Bebida;
  */
 public class Gaseosa extends Bebida {
 
+    /**
+     * Este metodo constructor le asigna el nombre al componente al cual se
+     * define como Gaseosa
+     *
+     */
     public Gaseosa() {
         this.nombre = "Gaseosa";
     }

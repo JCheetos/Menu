@@ -7,6 +7,7 @@ package restaurante.menu.logica.componente.postre;
 import restaurante.menu.logica.componente.Postre;
 
 /**
+ * Esta clase hereda las caracteristicas y metodos de la clase Postre
  *
  * @author Valentina Uscategui Tobo - 20172020063
  * @author Camilo Torres Rodriguez - 20172020067
@@ -14,6 +15,11 @@ import restaurante.menu.logica.componente.Postre;
  */
 public class Galletas extends Postre {
 
+    /**
+     * Este metodo constructor le asigna el nombre al componente al cual se
+     * define como Galletas
+     *
+     */
     public Galletas() {
         this.nombre = "Galletitas";
     }
